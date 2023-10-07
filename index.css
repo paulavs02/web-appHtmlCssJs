@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif ;
+    background-color: #f4f4f5; /*  el color de fondo  */
+}
+
+.navbar {
+    background-color: #353a40;
+    width: 100vw;
+    height: 50px;
+    padding: 10px 10px;
+    
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 50px;
+}
+.logo img {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.navbar-brand-text {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+    
+}
+
+.menu li {
+    display: inline-flex;
+    text-align: right;
+    float: right;
+    order: 1;
+    
+}
+
+.menu li a {
+    color: #85888a;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.menu li a.active {
+    color: #ffffff;
+    background-color:none;
+}
+
+.image-container {
+    position: relative;
+    filter:brightness(0.5);
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    line-height: 1.80;
+    word-break: break-word;
+    font-size: 20px;
+    max-width: 300px;
+    color: white;
+    right: 5%
+    
+   
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+.quiero {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px
+}
+
+.comprar {
+    background-color: #008000;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px
+}
+
+.container-botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.titulo-oradores {
+    text-align: center;
+}
+.oradores-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.box {
+    width: 33.3%;
+    padding: 20px;
+    border: 1px solid #cfcaca;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.bt {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.botonjs {
+    background-color: #fec107;
+    color: #000000;
+    border-radius: 5px
+}
+
+.botonr {
+    background-color: #0590a2;
+    color: #fdfdfd;
+    border-radius: 5px
+}
+.banner-octubre {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.texto-octubre {
+    z-index: 1;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+input {
+    width: 30%;
+    border-radius: 5px;
+    height: 30px
+    
+}
+.motivo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+}
+.recuerda {
+    h3 {
+        color: #ccc;
+        text-align: center;
+    }
+}
+.enviar {
+    justify-content:center;
+    background-color: #96c93e;
+    color: white;
+    font-size: 16px;
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+    height: 30px
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #1c3f53;
+    height: 3rem;
+    line-height: 1.5;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    flex-basis: 100%;
+}
